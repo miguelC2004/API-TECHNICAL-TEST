@@ -12,10 +12,8 @@
 
     1. Clone the repository:
 
-        ```
-        git clone https://github.com/yourusername/user-admin-api.git
-        cd user-admin-api
-        ```
+        ```git clone https://github.com/yourusername/user-admin-api.git
+        cd user-admin-api ```
 
     2. Install dependencies:
 
