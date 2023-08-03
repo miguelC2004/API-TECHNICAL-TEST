@@ -1,0 +1,61 @@
+/* botones */
+QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para las etiquetas */
+QLabel {
+    font-size: 18px;
+}
+
+/* Estilos para los campos de texto */
+QLineEdit {
+    font-size: 16px;
+    height: 30px;
+}
+
+/* Estilos para los formularios */
+QFormLayout {
+    spacing: 10px;
+}
+
+/* Estilos para los títulos de las ventanas */
+QMainWindow {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para la tabla */
+QTableView {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    gridline-color: #4CAF50;
+}
+
+/* Estilos para las celdas de la tabla */
+QTableView::item {
+    padding: 5px;
+}
+
+/* Estilos para el encabezado de la tabla */
+QHeaderView::section {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+}
